@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #b8d9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 236px;
+
+}
+
+section {
+    padding: 6px 44px;
+
+}
+
+h1 {
+     padding: 6px 4px;
+     text-align: center;
+
+}
+
+.botão {
+    padding: 8px 155px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    background-color: #deb887;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.botão:hover {
+    cursor:  pointer;
+    background-color: #b0926a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.29);
+
+}
+
+
+ .pratos {
+    padding: 3px;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 6px;
+    color: #000000;
+    
+}
+
+ .sobremesas {
+    padding: 3px;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+ .bebidas {
+    padding: 3px;
+    background-color: #fafafa;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+.quantidade {
+     padding: 3px;
+     background-color: #fafafa;
+     border: none;
+    border-radius: 6px;
+    
+}
+ 
+.box {
+    border: 2px solid #000000;
+    padding: 30px 24px;
+    border-radius: 15px;
+
+}
